@@ -1,0 +1,46 @@
+# Visual Studio settings and build artifacts
+.vs/
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+
+# Logs and debug
+*.log
+logs/
+dump.rdb
+
+# ASP.NET temp files
+wwwroot/node_modules/
+wwwroot/lib/
+
+# Publish output
+publish/
+out/
+
+# Docker
+.env
+Dockerfile
+Docker-compose*
+
+# Local development settings
+appsettings.Development.json
+secrets.json
+
+# Temporary files
+*.tmp
+*.cache
+*.bak
+*.swp
