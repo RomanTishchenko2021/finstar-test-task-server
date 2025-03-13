@@ -3,6 +3,11 @@
 ## Overview
 This is a test project developed for **Finstar Financial Group**.
 
+### SomeObjects ER diagram
+![ER model of SomeObjects table](assets/SomeObject-er-diagram.png)
+
+To check types and constraints used for table's columns, please check [model snapshot](src/Migrations/FinstarTestTaskDbContextModelSnapshot.cs#L24).
+
 ## Prerequisites
 Ensure you have the following installed before running the project:
 - [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
